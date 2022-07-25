@@ -1,0 +1,4 @@
+altgraph==0.17.2
+pyinstaller==5.2
+pyinstaller-hooks-contrib==2022.8
+tk==0.1.0
