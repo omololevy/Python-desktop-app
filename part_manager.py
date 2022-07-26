@@ -1,7 +1,11 @@
 from tkinter import *
+from db import Database
+
+db = Database('store.db')
 
 def populate_list():
-    print('Populate')
+    for row in db.fetch():
+        parts_list.insert(END, row)
 
 def add_item():
     print('Add')
